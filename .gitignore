@@ -1,0 +1,20 @@
+env/
+
+# ignore everything inside data
+data/*
+
+# allow specific python files
+!data/generate_data.py
+!data/merchent_data.py
+!data/phone_bill.py
+
+# allow processed folder
+!data/processed/
+
+# ignore everything inside processed
+data/processed/*
+
+# allow only this file
+!data/processed/main_dataset.csv
+
+pipeline.txt
