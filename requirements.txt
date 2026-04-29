@@ -3,3 +3,7 @@ pandas
 scikit-learn
 lightgbm
 xgboost
+fastapi
+uvicorn
+pydantic
+python-multipart
