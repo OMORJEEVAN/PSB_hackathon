@@ -6,7 +6,7 @@ import hashlib
 import traceback
 from typing import Optional
 
-app = FastAPI(title="AI Credit Scoring FINAL (WORKING)")
+app = FastAPI(title="AI Credit Scoring")
 
 
 # -------------------------------
