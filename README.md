@@ -59,3 +59,23 @@ We built an **AI-powered credit scoring system** that uses alternative data to:
 ---
 
 ## 🏗️ Model Architecture
+
+```
+Raw Data
+↓
+Feature Engineering
+↓
+Base Models
+├── Logistic Regression
+├── LightGBM
+├── XGBoost
+└── Neural Network
+↓
+Level 1 Stacking (K-Fold)
+↓
+Level 2 Meta Models (LGB + XGB)
+↓
+Final Prediction
+
+```
+
