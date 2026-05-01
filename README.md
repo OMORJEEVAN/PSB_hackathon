@@ -79,3 +79,26 @@ Final Prediction
 
 ```
 
+---
+
+## 📈 Performance
+
+- Accuracy: ~85–90% (realistic estimate)  
+- AUC Score: ~0.99 (affected by synthetic data)
+
+---
+
+## 🔐 Privacy & Consent
+
+- User-controlled consent-based data selection  
+- Sensitive data is anonymized (hashed IDs)  
+- Only approved features are used for prediction  
+
+---
+
+## 🚀 API Usage
+
+### Run the API
+
+```bash
+uvicorn api.app:app --reload
