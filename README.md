@@ -102,3 +102,58 @@ Final Prediction
 
 ```bash
 uvicorn api.app:app --reload
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+structure:
+
+```
+└── UCO_BANK/
+    ├── .gitignore
+    ├── README.md
+    ├── requirements.txt
+    ├── training/
+    │   ├── stacking.py
+    │   └── stacking_level2.py
+    ├── saved_models/
+    │   ├── lgbm_model.pkl
+    │   ├── lgb_meta.pkl
+    │   ├── logistic_model.pkl
+    │   ├── nn_model.pkl
+    │   ├── nn_scaler.pkl
+    │   ├── scaler.pkl
+    │   ├── stacking_model.pkl
+    │   ├── xgb_meta.pkl
+    │   └── xgb_model.pkl
+    ├── models/
+    │   ├── train_lgbm.py
+    │   ├── train_logistic.py
+    │   ├── train_nn.py
+    │   └── train_xgb.py
+    ├── features/
+    │   ├── build_features.py
+    │   └── psychometric.py
+    ├── data/
+    │   ├── generate_data.py
+    │   ├── merchent_data.py
+    │   ├── phone_bill.py
+    │   ├── raw/
+    │   └── processed/
+    │       └── main_data.csv
+    ├── api/
+    │   └── app.py
+    └── .git/
+```
